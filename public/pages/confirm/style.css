@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+}
+
+.box {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 25px;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #393e46;
+    color: white;
+    text-shadow: 0 0 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.mail, .link {
+    color: #76ead7;
+}
+
+.incorrect {
+    color: tomato;
+}
+
+.confirmed {
+    color: #c4fb6d;
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        width: 70%;
+    }
+}
